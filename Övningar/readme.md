@@ -42,7 +42,7 @@ NOTERA att det inte går att kombinera kategori och söksträng, och att ni där
 ### Sinus Skateboards Webbshop
 Fortsätt bygga på din webbshop. Istället för den data som ni nu läser in från en javascript-fil, bör ni istället hämta data från följande API:
 
-````GET https://santosnr6.github.io/Data/sinus_products.json```
+```GET https://santosnr6.github.io/Data/sinus_products.json```
 
 Fundera på vart i projektet ni skulle ha användning för *useEffect*-hooken.
 
