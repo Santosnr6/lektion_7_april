@@ -51,6 +51,7 @@ Fundera på vart i projektet ni skulle ha användning för *useEffect*-hooken.
 Skapa gärna ett eget projekt där du behöver använda dig av API-anrop. Det är jättebra övning att själv läsa dokumentationen för olika APIer, och därigenom försöka förstå sig på dem!
 
 Förslag på APIer:
+- [Poke-API](https://pokeapi.co/) - Om ni ännu inte tröttnat på vår gamla favorit PokeApi så hittar ni den här!
 - [Hund-API:et](https://dog.ceo/dog-api/) - Hämta en massa gulliga data om hundar!
 - [REST-Countries](https://restcountries.com/) - Kul API som kan användas för att hämta information om alla världens länder.
 - [Weather API](https://openweathermap.org/api) - Ett av de mest populära APIerna för hemmasnickrare, som kan användas för att skapa en väderapp.
