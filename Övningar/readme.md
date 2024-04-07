@@ -8,10 +8,10 @@
 Skapa en applikation där en användare utifrån olika parametrar kan generera fram X antal Chuck Norris-skämt.
 
 Din applikation skall MINST bestå av följande komponenter:
-- App
-- Generator
-- JokeForm
-- JokeDisplay
+- App (Huvudkomponenten för ditt program, skall läsa in Generator)
+- Generator (Din generator-komponent, skall läsa in JokeForm och JokeDisplay)
+- JokeForm (Här skapar du ditt formulär)
+- JokeDisplay (Här listar du din/dina Joke-komponenter)
 - Joke
 
 Börja med att vid *Mount* göra ett anrop till api:et för att hämta de olika kategorierna som finns. Fundera en stund på varifrån i programmet som detta anrop bör göras.
