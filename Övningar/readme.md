@@ -5,6 +5,8 @@
 ### Chuck Norris Joke Generator
 ![Chuck Norris Joke](https://qph.cf2.quoracdn.net/main-qimg-2141243491f887a7634e95f0704e386b.webp);
 
+- [Chuck Norris API](https://api.chucknorris.io/).
+
 Skapa en applikation där en användare utifrån olika parametrar kan generera fram X antal Chuck Norris-skämt.
 
 Din applikation skall MINST bestå av följande komponenter:
