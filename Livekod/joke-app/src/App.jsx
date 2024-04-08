@@ -35,18 +35,6 @@ function App() {
     setCategory(event.target.value);
   }
 
-  useEffect(() => {
-    console.log('Nu startande programmet');  
-  }, [])
-
-  useEffect(() => {
-    console.log('Nu ändrades något, vet ej vad');
-  })
-
-  useEffect(() => {
-    console.log('Nu ändrade du dina tillståndsvariabler');
-  }, [input, category]);
-
   return (
     <div className="app">
       <SearchForm 
