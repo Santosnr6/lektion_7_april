@@ -17,7 +17,7 @@
 Hittar ni i mappen [Övningar](./Övningar/).
 
 ## Liveföreläsning
-Inga föreläsningar publicerade ännu
+- [Livegenomgång med kodexempel 8 april](https://vimeo.com/931975088/feb1634cd1?share=copy).
 
 ## Extraresurser
 - [useEffect med Web Dev Simplified](https://www.youtube.com/watch?v=0ZJgIjIuY7U).
