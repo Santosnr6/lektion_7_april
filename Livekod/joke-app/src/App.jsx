@@ -2,7 +2,7 @@ import './App.css';
 import Joke from './components/joke/Joke';
 import SearchForm from './components/searchForm/SearchForm';
 import axios from 'axios';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const getJokes = (input, category, setJokes) => {
   axios.get(`https://v2.jokeapi.dev/joke/${category}?blacklistFlags=religious,racist,sexist,explicit&type=single&amount=10&contains=${input}`)

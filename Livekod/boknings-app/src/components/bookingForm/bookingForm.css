@@ -1,0 +1,86 @@
+.form-wrapper {
+    width: 400px;
+    border: 2px solid black;
+}
+
+.form-wrapper h1 {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #CECECE;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.form-group-radio {
+    grid-column: auto / span 2;
+    width: 100%;
+    text-align: start;
+    padding: 1rem;
+    background-color: white;
+}
+
+.form-group {
+    grid-column: auto / span 2;
+    width: 100%;
+    text-align: start;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: .9rem;
+    color: grey;
+}
+
+.form-group-span-four {
+    grid-column: auto / span 4;
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-span-four label {
+    font-size: .9rem;
+    color: grey;
+}
+
+.form-group-span-four input {
+    padding: 1rem;
+}
+
+.form-group select {
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.form-group-checkbox {
+    grid-column: auto / span 4;
+    padding: 1rem;
+    background-color: white;
+}
+
+input[type=checkbox] {
+    margin-right: 1rem;
+}
+
+.form-group-button {
+    grid-column: auto / span 4;
+    padding: 1rem;
+    background-color: white;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    border-radius: .5rem;
+}
